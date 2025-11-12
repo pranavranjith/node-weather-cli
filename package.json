@@ -1,0 +1,14 @@
+{
+  "name": "node-weather-cli",
+  "version": "1.0.0",
+  "description": "A command-line application to fetch and display the current weather for a specified city.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.4"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
