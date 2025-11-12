@@ -1,1 +1,1 @@
-# node-weather-cli
+# node-weather-CLI
