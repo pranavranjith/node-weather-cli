@@ -1,13 +1,19 @@
+
+
 const axios = require('axios');
+
+
 
 const getWeather = async (city) => {
     try {
         const response = await axios.get(`https://wttr.in/${city}?format=3`);
-        console.log("The Weather: "+response.data);
+        console.log("The Weather : "+response.data);
     } catch (error) {
         console.error('Error fetching weather data:', error.message);
     }
 };
+
+
 
 const main = () => {
     const city = process.argv[2];
@@ -17,5 +23,7 @@ const main = () => {
     }
     getWeather(city);
 };
+
+
 
 main();
